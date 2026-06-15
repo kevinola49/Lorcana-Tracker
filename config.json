@@ -1,0 +1,79 @@
+{
+  "_comment": "Edit this file to control what the tracker looks for.",
+
+  "target_sets": [
+    "The First Chapter",
+    "Rise of the Floodborn",
+    "Into the Inklands",
+    "Ursula's Return",
+    "Shimmering Skies",
+    "Azurite Sea",
+    "Archazia's Island",
+    "Reign of Jafar",
+    "Fabled",
+    "Whispers in the Well",
+    "Winterspell",
+    "Wilds Unknown",
+    "Attack of the Vine"
+  ],
+
+  "known_sets_for_new_detection": [
+    "first chapter",
+    "rise of the floodborn",
+    "into the inklands",
+    "ursula's return",
+    "ursulas return",
+    "shimmering skies",
+    "azurite sea",
+    "archazia's island",
+    "archazias island",
+    "reign of jafar",
+    "fabled",
+    "whispers in the well",
+    "winterspell",
+    "wilds unknown",
+    "attack of the vine"
+  ],
+
+  "product_keywords": {
+    "Booster Box": ["booster box", "booster display", "24 booster", "24-pack", "24 pack"],
+    "Illumineer's Trove": ["illumineer's trove", "illumineers trove", "trove"]
+  },
+
+  "in_stock_keywords": ["add to cart", "in stock", "buy now", "available now"],
+  "preorder_keywords": ["pre-order", "preorder", "pre order", "ships on", "release date"],
+  "out_of_stock_keywords": ["sold out", "out of stock", "unavailable", "notify me", "coming soon"],
+
+  "msrp": {
+    "_comment": "Used to flag listings priced above typical MSRP for that product type. Can be overridden per-set in set_overrides below.",
+    "Booster Box": 99.99,
+    "Illumineer's Trove": 49.99
+  },
+
+  "set_overrides": {
+    "_comment": "Per-set controls. 'enabled': false fully excludes that set's listings from results (the dashboard, alerts, and price history). Sets with release dates in 2025 and earlier are disabled by default - flip to true to re-enable. 'msrp' (optional) overrides the global msrp values above for that specific set.",
+    "The First Chapter": { "enabled": false, "release_year": 2023 },
+    "Rise of the Floodborn": { "enabled": false, "release_year": 2023 },
+    "Into the Inklands": { "enabled": false, "release_year": 2024 },
+    "Ursula's Return": { "enabled": false, "release_year": 2024 },
+    "Shimmering Skies": { "enabled": false, "release_year": 2024 },
+    "Azurite Sea": { "enabled": false, "release_year": 2024 },
+    "Archazia's Island": { "enabled": false, "release_year": 2025 },
+    "Reign of Jafar": { "enabled": false, "release_year": 2025 },
+    "Fabled": { "enabled": false, "release_year": 2025 },
+    "Whispers in the Well": { "enabled": false, "release_year": 2025 },
+    "Winterspell": { "enabled": true, "release_year": 2026 },
+    "Wilds Unknown": { "enabled": true, "release_year": 2026 },
+    "Attack of the Vine": { "enabled": true, "release_year": 2026 }
+  },
+
+  "new_set_candidates_always_enabled": true,
+
+  "request_settings": {
+    "timeout_seconds": 15,
+    "delay_between_requests_seconds": 2,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+  },
+
+  "default_check_frequency": "Few times a day (suggested: every 4-6 hours)"
+}
