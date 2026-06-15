@@ -1,0 +1,256 @@
+{
+  "_comment": "Each store needs a 'name', 'region', and one or more 'check_urls' (collection/search pages that list Lorcana sealed product). 'verified' = true means the URL was confirmed via search to show Lorcana product; false/absent means it's a best-guess collection URL following common Shopify patterns and may need correcting (the dashboard will show it under 'Stores That Failed to Load' if wrong - just fix the URL in that case). Add your own local shops here - just find their Lorcana or 'sealed product' collection page URL and add an entry. 'region' is just a label for the dashboard (CA, US, etc).",
+
+  "stores": [
+    {
+      "name": "Undiscovered Realm",
+      "region": "CA",
+      "city": "Murrieta, CA",
+      "check_urls": [
+        "https://www.undiscoveredrealm.com/collections/lorcana-booster-box",
+        "https://www.undiscoveredrealm.com/collections/lorcana"
+      ],
+      "verified": true
+    },
+    {
+      "name": "Game Empire",
+      "region": "CA",
+      "city": "Pasadena, CA",
+      "check_urls": [
+        "https://gameempire.com/collections/disney-lorcana"
+      ],
+      "verified": true
+    },
+    {
+      "name": "Stomping Grounds TCG",
+      "region": "CA",
+      "city": "Riverside, CA",
+      "check_urls": [
+        "https://www.stompinggroundstcg.com/collections/disney-lorcana"
+      ],
+      "verified": true
+    },
+    {
+      "name": "Saga Concepts",
+      "region": "US",
+      "city": "Ships nationwide",
+      "check_urls": [
+        "https://sagaconcepts.com/collections/lorcana-preorder",
+        "https://sagaconcepts.com/collections/disney-lorcana"
+      ],
+      "verified": true
+    },
+    {
+      "name": "Troll and Toad",
+      "region": "US",
+      "city": "Ships nationwide",
+      "check_urls": [
+        "https://www.trollandtoad.com/disney-lorcana/2447"
+      ],
+      "verified": true
+    },
+    {
+      "name": "Miniature Market",
+      "region": "US",
+      "city": "Ships nationwide",
+      "check_urls": [
+        "https://www.miniaturemarket.com/disney-lorcana-tcg.html"
+      ],
+      "verified": true
+    },
+    {
+      "name": "CoolStuffInc",
+      "region": "US",
+      "city": "Ships nationwide",
+      "check_urls": [
+        "https://www.coolstuffinc.com/main_namesearch.php?pagename=lorcana&page=browse"
+      ],
+      "verified": true
+    },
+    {
+      "name": "Cash Cards Unlimited",
+      "region": "US",
+      "city": "Ships nationwide",
+      "check_urls": [
+        "https://cashcardsunlimited.com/collections/lorcana"
+      ],
+      "verified": true
+    },
+    {
+      "name": "Star City Games",
+      "region": "US",
+      "city": "Ships nationwide",
+      "check_urls": [
+        "https://starcitygames.com/lorcana/"
+      ],
+      "verified": true
+    },
+    {
+      "name": "Lorcana Card Shop",
+      "region": "US",
+      "city": "Ships nationwide (Lorcana specialty)",
+      "check_urls": [
+        "https://www.lorcanacardshop.com/",
+        "https://www.lorcanacardshop.com/collections/sealed-product"
+      ],
+      "verified": true,
+      "notes": "Lorcana-only specialty shop - good candidate for set-specific sealed alerts."
+    },
+    {
+      "name": "Moonshot Games",
+      "region": "US",
+      "city": "Noblesville, IN (ships nationwide)",
+      "check_urls": [
+        "https://moonshotgamestore.com/collections/disney-lorcana-trading-card-game-preorders",
+        "https://moonshotgamestore.com/collections/disney-lorcana-trading-card-game"
+      ],
+      "verified": true
+    },
+    {
+      "name": "Danireon Cards & Games",
+      "region": "US",
+      "city": "Ships nationwide",
+      "check_urls": [
+        "https://www.danireon.com/en-us/collections/disney-lorcana-booster-boxes"
+      ],
+      "verified": true
+    },
+    {
+      "name": "Hobbiesville",
+      "region": "US",
+      "city": "Ships nationwide",
+      "check_urls": [
+        "https://hobbiesville.com/collections/disney-lorcana-booster-box"
+      ],
+      "verified": true
+    },
+    {
+      "name": "Prodigy Games",
+      "region": "US",
+      "city": "Ships nationwide",
+      "check_urls": [
+        "https://prodigy-games.myshopify.com/collections/lorcana"
+      ],
+      "verified": true
+    },
+    {
+      "name": "Alchemist's Refuge",
+      "region": "US",
+      "city": "Ships nationwide",
+      "check_urls": [
+        "https://alchemistsrefuge.shop/collections/disney-lorcana",
+        "https://alchemistsrefuge.shop/collections/lorcana"
+      ],
+      "verified": false,
+      "notes": "Site confirmed to carry Lorcana sealed; collection URL is a best guess - verify/fix path."
+    },
+    {
+      "name": "Prisma Games",
+      "region": "US",
+      "city": "Ships nationwide",
+      "check_urls": [
+        "https://www.prismatcg.com/collections/lorcana",
+        "https://www.prismatcg.com/collections/lorcana-sealed-product"
+      ],
+      "verified": false,
+      "notes": "Site confirmed to carry Lorcana sealed; collection URL is a best guess - verify/fix path."
+    },
+    {
+      "name": "The Booster Box (Virginia Beach)",
+      "region": "US",
+      "city": "Virginia Beach, VA (ships nationwide)",
+      "check_urls": [
+        "https://bad-mage-gaming.myshopify.com/collections/disney-lorcana",
+        "https://bad-mage-gaming.myshopify.com/collections/all"
+      ],
+      "verified": false,
+      "notes": "Found via a Lorcana product listing on this Shopify backend; collection URL guessed - verify/fix path."
+    },
+    {
+      "name": "Card Caster",
+      "region": "US",
+      "city": "Ships nationwide",
+      "check_urls": [
+        "https://card-caster.myshopify.com/collections/lorcana",
+        "https://card-caster.myshopify.com/collections/all"
+      ],
+      "verified": false,
+      "notes": "Found via a Lorcana product listing on this Shopify backend; collection URL guessed - verify/fix path."
+    },
+    {
+      "name": "Step Card",
+      "region": "US",
+      "city": "Ships nationwide",
+      "check_urls": [
+        "https://stepcard.myshopify.com/collections/disney-lorcana",
+        "https://stepcard.myshopify.com/collections/all"
+      ],
+      "verified": false,
+      "notes": "Found via a Lorcana product listing on this Shopify backend; collection URL guessed - verify/fix path."
+    },
+    {
+      "name": "Online Board Games",
+      "region": "US",
+      "city": "Ships nationwide",
+      "check_urls": [
+        "https://online-board-games.myshopify.com/collections/lorcana",
+        "https://online-board-games.myshopify.com/collections/all"
+      ],
+      "verified": false,
+      "notes": "Found via a Lorcana product listing on this Shopify backend; collection URL guessed - verify/fix path."
+    },
+    {
+      "name": "The Stadium BC",
+      "region": "US",
+      "city": "Ships nationwide",
+      "check_urls": [
+        "https://the-stadium-bc.myshopify.com/collections/lorcana",
+        "https://the-stadium-bc.myshopify.com/collections/new-arrivals"
+      ],
+      "verified": false,
+      "notes": "Found via a Lorcana product listing on this Shopify backend; collection URL guessed - verify/fix path."
+    },
+    {
+      "name": "Jay's Toys and Games",
+      "region": "US",
+      "city": "Ships nationwide",
+      "check_urls": [
+        "https://www.jaystoysandgames.com/collections/disney-lorcana",
+        "https://www.jaystoysandgames.com/collections/lorcana"
+      ],
+      "verified": false,
+      "notes": "Confirmed Lorcana booster box product page exists; collection URL guessed - verify/fix path."
+    },
+    {
+      "name": "Card Kingdom",
+      "region": "US",
+      "city": "Ships nationwide",
+      "check_urls": [
+        "https://www.cardkingdom.com/catalog/category/lorcana",
+        "https://www.cardkingdom.com/catalog/view/lorcana_sealed"
+      ],
+      "verified": false,
+      "notes": "Major national singles/sealed retailer; exact Lorcana category path is a best guess - verify/fix path."
+    },
+    {
+      "name": "GameNerdz",
+      "region": "US",
+      "city": "Ships nationwide",
+      "check_urls": [
+        "https://www.gamenerdz.com/disney-lorcana-tcg-c-1700.html"
+      ],
+      "verified": false,
+      "notes": "Major national TCG retailer; exact Lorcana category URL is a best guess - verify/fix path."
+    },
+    {
+      "name": "Channel Fireball",
+      "region": "US",
+      "city": "Ships nationwide",
+      "check_urls": [
+        "https://store.channelfireball.com/collections/lorcana"
+      ],
+      "verified": false,
+      "notes": "Major national TCG retailer; exact Lorcana collection URL is a best guess - verify/fix path."
+    }
+  ]
+}
