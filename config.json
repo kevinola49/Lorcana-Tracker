@@ -14,7 +14,8 @@
     "Whispers in the Well",
     "Winterspell",
     "Wilds Unknown",
-    "Attack of the Vine"
+    "Attack of the Vine",
+    "Hyperia City"
   ],
 
   "known_sets_for_new_detection": [
@@ -32,7 +33,8 @@
     "whispers in the well",
     "winterspell",
     "wilds unknown",
-    "attack of the vine"
+    "attack of the vine",
+    "hyperia city"
   ],
 
   "product_keywords": {
@@ -62,9 +64,10 @@
     "Reign of Jafar": { "enabled": false, "release_year": 2025 },
     "Fabled": { "enabled": false, "release_year": 2025 },
     "Whispers in the Well": { "enabled": false, "release_year": 2025 },
-    "Winterspell": { "enabled": true, "release_year": 2026 },
-    "Wilds Unknown": { "enabled": true, "release_year": 2026 },
-    "Attack of the Vine": { "enabled": true, "release_year": 2026 }
+    "Winterspell": { "enabled": false, "release_year": 2026 },
+    "Wilds Unknown": { "enabled": false, "release_year": 2026 },
+    "Attack of the Vine": { "enabled": true, "release_year": 2026 },
+    "Hyperia City": { "enabled": true, "release_year": 2026 }
   },
 
   "new_set_candidates_always_enabled": true,
