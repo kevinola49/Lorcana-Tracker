@@ -1,10 +1,6 @@
 {
   "Undiscovered Realm|Lorcana booster box|https://www.undiscoveredrealm.com/collections/lorcana-booster-box": [
     {
-      "timestamp": "2026-06-21T11:58:39.656080+00:00",
-      "price": 124.95
-    },
-    {
       "timestamp": "2026-06-21T19:05:41.172123+00:00",
       "price": 124.95
     },
@@ -38,15 +34,15 @@
     },
     {
       "timestamp": "2026-06-24T12:05:16.331794+00:00",
+      "price": 124.95
+    },
+    {
+      "timestamp": "2026-06-24T20:22:29.022600+00:00",
       "price": 124.95
     }
   ],
   "Undiscovered Realm|Disney Lorcana TCG Booster Boxes|https://www.undiscoveredrealm.com/collections/lorcana-booster-box": [
     {
-      "timestamp": "2026-06-21T11:58:39.656080+00:00",
-      "price": 124.95
-    },
-    {
       "timestamp": "2026-06-21T19:05:41.172123+00:00",
       "price": 124.95
     },
@@ -80,15 +76,15 @@
     },
     {
       "timestamp": "2026-06-24T12:05:16.331794+00:00",
+      "price": 124.95
+    },
+    {
+      "timestamp": "2026-06-24T20:22:29.022600+00:00",
       "price": 124.95
     }
   ],
   "Undiscovered Realm|Lorcana Archazia\u2019s Island Booster Box|https://www.undiscoveredrealm.com/collections/lorcana-booster-box": [
     {
-      "timestamp": "2026-06-21T11:58:39.656080+00:00",
-      "price": 119.95
-    },
-    {
       "timestamp": "2026-06-21T19:05:41.172123+00:00",
       "price": 119.95
     },
@@ -122,6 +118,10 @@
     },
     {
       "timestamp": "2026-06-24T12:05:16.331794+00:00",
+      "price": 119.95
+    },
+    {
+      "timestamp": "2026-06-24T20:22:29.022600+00:00",
       "price": 119.95
     }
   ],
